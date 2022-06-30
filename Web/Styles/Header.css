@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    
+    body{
+        background: #ffffff;
+        color: rgb(0, 0, 0);
+        line-height: 1.6;
+        font-family: 'Quicksand', sans-serif;
+        padding: 0 1.5em;
+
+        background-repeat: no-repeat;
+        font-weight: 400;
+        line-height: 1.5;
+        margin: 0;
+        min-height: 100vh;
+    }
+    
+    /* Header */
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        font-family: sans-serif;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+    
+    .nav_list{
+        display: flex;
+        list-style: none;
+    }
+    
+    .nav_list .list_links {
+        padding: 0 15px;
+    }
+    
+    .nav_list .list_links a {
+        transition: all .3s ease;
+    }
+    
+    .nav_list .list_links a:hover {
+        color: #0088a9;
+    }
+    
+    .btn{
+        border: none;
+    }
+    
+    .btn a{
+        color: white;
+        background-color: black;
+        padding: 10px;
+        border-radius: 10px;
+        transition: all .3s ease;
+    }
+
+/* Cuerpo */
+
+.tabla {
+    grid-area: box;
+    padding: .5rem 1.5rem;
+    border-radius: 1rem;
+    background: rgba(163, 160, 160, 0.616);
+    -webkit-box-shadow: 1px 2px 4px rgb(0 0 0 / 20%);
+    box-shadow: 1px 2px 4px rgb(0 0 0 / 20%);
+}
+
+.P{
+    display: flex;
+    justify-content: space-between;
+}
+
+.TextoI, .col-sm-6, .col-sm-7{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.label {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+}
+
+.table{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.Tabla{
+    display: flex;
+    justify-content: center;
+}
+
+.Sol{
+    display: flex;
+    justify-content: center;
+}

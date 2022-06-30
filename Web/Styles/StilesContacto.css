@@ -1,0 +1,143 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+body{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.nav_list{
+    display: flex;
+    list-style: none;
+}
+
+.nav_list .list_links {
+    padding: 0 15px;
+}
+
+.nav_list .list_links a {
+    transition: all .3s ease;
+}
+
+.nav_list .list_links a:hover {
+    color: #0088a9;
+}
+
+.btn{
+    border: none;
+}
+
+.btn a{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+/* Conctacto */
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+.contact-form {
+    background: #cac7c760;
+}
+
+.contact-form form {
+    display: contents;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .17em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid #000000;
+}
+
+.contact-form form button {
+    background: #000000;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: rgba(0, 0, 0, 0.87);
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+.contact-info {
+    background: #cac7c760;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 3rem 0;
+}
+
+@media(min-width: 1700px) {
+    body {
+        padding: 0 15em;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 3em;
+    }
+}
